@@ -1,5 +1,5 @@
 public class Desenvolvedor extends Funcionario{
-    String linguagem;
+    private String linguagem;
 
     public Desenvolvedor(String nome, String id, int idade, String linguagem) {
         super(nome, id, idade);
